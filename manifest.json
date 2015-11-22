@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "DevDocs Standalone",
+    "short_name": "devdocs-standalone",
+    "description": "App Version of devdocs.io and on github @ https://github.com/Thibaut/devdocs",
+    "version": "0.0.1",
+    "minimum_chrome_version": "38",
+    "permissions": [
+        "webview"
+    ],
+    "icons": {
+        "16": "assets/icon_16.png",
+        "128": "assets/icon_128.png"
+    },
+    "app": {
+        "background": {
+            "scripts": [
+                "background.js"
+            ]
+        }
+    }
+}
